@@ -19,6 +19,7 @@ p {
 }
 span {
   color: #323232;
+  white-space: pre;
 }
 .container {
   display: flex;

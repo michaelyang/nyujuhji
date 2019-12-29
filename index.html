@@ -15,8 +15,8 @@
       </div>
       <div class="containerHorizontal1">
         <div class="container1">
-          <p id="oneWay">One Way</p>
-          <p id="adult">2 Adult</p>
+          <p id="oneWay"><span>One Way</span></p>
+          <p id="adult"><span id="numAdult">1</span><span> Adult</span></p>
         </div>
         <div class="container2">
           <img id="barcode" src="qr.png" width="100%" height="100%" />
@@ -32,7 +32,10 @@
         </div>
         <div class="containerHorizontal2">
           <div id="back">Back</div>
-          <span id="expires">Expires in </span>
+          <div id="expires">
+            <span>Expires in : </span>
+            <span id="expireTime"></span>
+          </div>
         </div>
       </div>
     </div>
