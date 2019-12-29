@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Nyujuhji</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>INTERSTATE</h1>
+      <div class="zone">
+        <p id="zoneNumber">6</p>
+        <p id="zoneRide">ZONE RIDE</p>
+        <p id="zoneSub">**Not Valid on Light Rail Systems**</p>
+      </div>
+      <div class="containerHorizontal1">
+        <div class="container1">
+          <p id="oneWay">One Way</p>
+          <p id="adult">2 Adult</p>
+        </div>
+        <div class="container2">
+          <img id="barcode" src="qr.png" width="100%" height="100%" />
+        </div>
+      </div>
+      <div class="containerLast">
+        <p><span id="time"></span></p>
+        <p><span id="date"></span></p>
+        <div class="barcodeContainer animate-flicker">
+          <div class="barcode" id="barcode1"></div>
+          <div class="barcode" id="barcode2"></div>
+          <div class="barcode" id="barcode3"></div>
+        </div>
+        <div class="containerHorizontal2">
+          <div id="back">Back</div>
+          <span id="expires">Expires in </span>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>

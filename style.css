@@ -1,0 +1,176 @@
+body,
+html {
+  height: 100vh;
+  width: 100%;
+  font-family: Helvatica, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  color: red;
+  font-size: 7rem;
+  margin: 1rem;
+  font-weight: 500;
+}
+p {
+  margin: 0;
+}
+span {
+  color: #323232;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 3rem 0 3rem;
+}
+.containerHorizontal1 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 25vh;
+  margin-top: 2rem;
+}
+.containerHorizontal2 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 2rem 0 5rem 0;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px solid black;
+  flex: 1;
+  border-radius: 10px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.containerLast {
+  margin-top: auto;
+}
+.zone {
+  background: linear-gradient(#b66db6, #fff, #b66db6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  color: black;
+  justify-items: center;
+  padding: 2rem 0 10rem 0;
+}
+.barcodeContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 5rem;
+  padding: 2rem 0 2rem 0;
+}
+.barcode {
+  flex: 1;
+  height: 100%;
+}
+#zoneNumber {
+  font-size: 12rem;
+  font-weight: 800;
+  padding-bottom: 3rem;
+}
+#zoneRide {
+  font-size: 5rem;
+  font-weight: 500;
+}
+#zoneSub {
+  font-size: 3rem;
+  font-weight: 500;
+}
+#oneWay {
+  font-size: 4rem;
+  font-weight: 500;
+}
+#adult {
+  font-size: 8rem;
+  font-weight: 500;
+}
+#time {
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+#date {
+  font-size: 5.5rem;
+  font-weight: 500;
+}
+#back {
+  color: #324f85;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 4rem;
+  font-weight: 500;
+  padding: 1rem;
+  flex-grow: 1;
+}
+#expires {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 4;
+  font-size: 4rem;
+  font-weight: 500;
+}
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate-flicker {
+  -webkit-animation: flickerAnimation 2s infinite;
+  -moz-animation: flickerAnimation 2s infinite;
+  -o-animation: flickerAnimation 2s infinite;
+  animation: flickerAnimation 2s infinite;
+}
